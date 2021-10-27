@@ -1,8 +1,8 @@
-import React from 'react';  // also can use // import React, {component} from 'react'  // have to alter line 5 as well
+import React, { Component }from 'react';  // also can use  // import React from 'react'; // have to alter line 5 as well
 import logo from './logo.svg';
 import './App.css';
 
-class App extends React.Component {   // also can use  // class App extends Component {  // have to alter line 1 as well
+class App extends Component {  // also can use //  class App extends React.Component { // have to alter line 5 as well
   constructor(){
     super()
 
